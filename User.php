@@ -1,9 +1,8 @@
 <?php
-include __DIR__ . 'Loggable.php';
+include __DIR__ . '/nhn/Loggable.php';
 class User
 {
-    
-    use Loggable;
+    use Loggable ;
 
     protected $name;
     protected $surname;
