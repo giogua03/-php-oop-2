@@ -24,7 +24,7 @@ var_dump($esito);
 class FileNotFoundException extends Exception { }
 
 try {
-    if (!file_exists('file.txt')) {
+    if (!file_exists('testfile.txt')) {
         throw new FileNotFoundException('Il file  non esiste.');
     }
 } catch (FileNotFoundException $e) {
